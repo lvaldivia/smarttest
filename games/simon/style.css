@@ -1,0 +1,18 @@
+/* Layout */
+@font-face{
+	font-family: Retroesque;
+	src: url('fonts/SFRetroesque-Oblique.ttf')
+}
+
+@font-face {
+	font-family: Zenith;
+	src: url('fonts/ZENITH2000.TTF');
+}
+
+body{
+   background-color:black;
+   margin: 0;
+   padding: 0;
+   font-family: 'Retroesque';
+}
+
