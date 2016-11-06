@@ -19,6 +19,6 @@ Preload.prototype = {
     	this.scale.pageAlignVertically = true;
     },
     create:function(){
-        this.game.state.start('Game');
+        this.game.state.start('Menu');
     }
 }
