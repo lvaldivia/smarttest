@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+</head>
+<body>
+<style type="text/css">
+	body{
+		background: #efede3 url(bblearn_2011_bg.png) repeat 0 -19px;
+	}
+</style>
+<div class="content">
+	<ul class="links">
+		<li data-ref="https://upc-projects-lvaldivia.c9users.io/games/flappy/">Flappy</li>
+		<li data-ref="https://upc-projects-lvaldivia.c9users.io/games/cartas/">Cartas</li>
+		<li data-ref="https://upc-projects-lvaldivia.c9users.io/games/simon/">Simon</li>
+	</ul>
+</div>
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+	$( document ).ready(function() {
+	    $( ".links li" ).on( "click", function() {
+		  var ref = $(this).data('ref');
+		  top.location.href = ref;
+		});
+	});
+</script>
+</body>
+</html>
