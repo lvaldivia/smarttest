@@ -13,6 +13,7 @@ Menu.prototype = {
         this.game.input.onDown.add(this.startGame,this);
     },
     startGame:function(){
+        history.pushState({}, 'game', '/game');
         this.game.state.start('Game');
     }
 }
